@@ -1,13 +1,18 @@
 import React from 'react'
 import Navbar from './Components/Navbar.jsx'
 import Hero from './Components/Hero.jsx'
-import './index.css'
+import ProductViewer from './Components/ProductViewer.jsx' 
+import { gsap } from 'gsap' 
+import { ScrollTrigger, SplitText } from 'gsap/all';
+
+gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
     <main>
       <Navbar />
       <Hero />
+      <ProductViewer />
     </main>
   )
 }
