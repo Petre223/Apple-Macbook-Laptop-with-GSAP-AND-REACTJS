@@ -1,4 +1,4 @@
-import { navLinks } from "../Constants/index.js";
+import { navLinks } from "../Constants";
 
 const NavBar = () => {
     return (
