@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import { performanceImages, performanceImgPositions } from "../Constants";
+import { performanceImages, performanceImgPositions } from "../Constants/Index.js";
 import {useMediaQuery} from "react-responsive";
 
 const Performance = () => {
